@@ -1,34 +1,32 @@
 # Etiquetas y atributos
 
-Las etiquetas HTML definen elementos, y los atributos proporcionan información adicional sobre ellos.
+## Explicación
 
-## Etiquetas básicas
+Las etiquetas HTML definen la estructura y el contenido de una página web. Los atributos proporcionan información adicional sobre los elementos.
 
-Etiquetas como ``(p)``, ``(div)``, ``(span)`` estructuran el contenido.
-
-**Ejemplo de la vida real**: Página de producto.
+## Ejemplo básico
 
 ```html
-`(div class="producto")`
-    `(h2)`Producto(/h2)
-    `(p)`Descripción del producto.(/p)
-(/div)
+<p class="intro" id="main-para">Este es un párrafo con atributos.</p>
 ```
 
-## Atributos comunes
+## Ejemplo de la vida real
 
-- ** ``(id)`` **: Identificador único.
-- ** ``(class)`` **: Clases para CSS/JS.
-- ** ``(style)`` **: Estilos inline.
-- ** ``(data-*)`` **: Atributos personalizados.
-
-**Ejemplo de la vida real**: Formulario de contacto.
+En un formulario de contacto, se usan atributos para validación.
 
 ```html
-`(form id="contacto" action="/enviar" method="post")`
-    `(input type="text" name="nombre" placeholder="Tu nombre" required)`
-    `(button type="submit")`Enviar(/button)
-(/form)
+<form action="/submit" method="post">
+    <input type="email" name="email" required placeholder="Tu email">
+    <button type="submit">Enviar</button>
+</form>
 ```
 
-**Notas importantes**: Atributos booleanos como `required` no necesitan valor. Usar minúsculas para atributos.
+## Notas importantes
+
+- Los atributos van dentro de la etiqueta de apertura.
+- Algunos atributos son globales, como `class`, `id`, `style`.
+
+## Mejores prácticas
+
+- Usa atributos semánticos.
+- Mantén los nombres de atributos descriptivos.

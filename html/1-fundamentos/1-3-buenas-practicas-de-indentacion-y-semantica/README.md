@@ -1,41 +1,52 @@
 # Buenas prácticas de indentación y semántica
 
-La indentación y semántica hacen el código legible y accesible.
+## Explicación
 
-## ``(Indentación)``
+La indentación mejora la legibilidad del código HTML. La semántica se refiere al uso de etiquetas que transmiten el significado del contenido.
 
-Usar espacios o tabs consistentes para anidar elementos.
-
-**Ejemplo de la vida real**: Código bien estructurado.
+## Ejemplo básico
 
 ```html
-`(article)`
-    `(header)`
-        `(h1)`Título(/h1)
-    (/header)
-    `(section)`
-        `(p)`Contenido(/p)
-    (/section)
-(/article)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Título</title>
+</head>
+<body>
+    <header>
+        <h1>Título principal</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Sección</h2>
+            <p>Contenido</p>
+        </section>
+    </main>
+</body>
+</html>
 ```
 
-## ``(Semántica)``
+## Ejemplo de la vida real
 
-Usar etiquetas que describan el significado del contenido, no solo apariencia.
-
-**Ejemplo de la vida real**: Página de artículo.
+En un sitio de noticias, usa semántica para estructurar artículos.
 
 ```html
-`(article)`
-    `(header)`
-        `(h1)`Artículo principal(/h1)
-        `(p)`Por Autor(/p)
-    (/header)
-    `(p)`Contenido del artículo...(/p)
-    `(footer)`
-        `(p)`Publicado el 2023(/p)
-    (/footer)
-(/article)
+<article>
+    <header>
+        <h1>Título de la noticia</h1>
+        <time datetime="2023-10-16">16 de octubre de 2023</time>
+    </header>
+    <p>Contenido de la noticia...</p>
+</article>
 ```
 
-**Notas importantes**: Semántica mejora SEO, accesibilidad y mantenibilidad. Evitar ``(div)`` genérico cuando hay semánticos disponibles.
+## Notas importantes
+
+- Indenta con 2 o 4 espacios.
+- Usa etiquetas semánticas en lugar de divs genéricos.
+
+## Mejores prácticas
+
+- Prioriza la semántica sobre el estilo.
+- Mantén la indentación consistente.

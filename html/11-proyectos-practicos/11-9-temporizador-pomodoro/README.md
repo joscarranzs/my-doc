@@ -5,20 +5,20 @@ Contador con intervalos de trabajo y descanso.
 ## HTML
 
 ```html
-<div class="pomodoro">
-    <h1>Pomodoro Timer</h1>
-    <div id="tiempo-restante">25:00</div>
-    <div class="controles">
-        <button id="iniciar">Iniciar</button>
-        <button id="pausar">Pausar</button>
-        <button id="reiniciar">Reiniciar</button>
-    </div>
-    <div class="modos">
-        <button id="trabajo" class="activo">Trabajo (25min)</button>
-        <button id="descanso">Descanso (5min)</button>
-    </div>
-    <div id="estado">Listo para trabajar</div>
-</div>
+(`<div class="pomodoro">`)
+    (`<h1>`)Pomodoro Timer(`</h1>`)
+    (`<div id="tiempo-restante">`)25:00(`</div>`)
+    (`<div class="controles">`)
+        (`<button id="iniciar">`)Iniciar(`</button>`)
+        (`<button id="pausar">`)Pausar(`</button>`)
+        (`<button id="reiniciar">`)Reiniciar(`</button>`)
+    (`</div>`)
+    (`<div class="modos">`)
+        (`<button id="trabajo" class="activo">`)Trabajo (25min)(`</button>`)
+        (`<button id="descanso">`)Descanso (5min)(`</button>`)
+    (`</div>`)
+    (`<div id="estado">`)Listo para trabajar(`</div>`)
+(`</div>`)
 ```
 
 ## JavaScript

@@ -1,21 +1,21 @@
-# Enlaces (<a>)
+# Enlaces (`(`<a>`)`)
 
 Los enlaces conectan páginas y recursos.
 
 **Sintaxis básica**:
 
 ```html
-<a href="url">Texto del enlace</a>
+(`<a href="url">`)Texto del enlace(`</a>`)
 ```
 
 **Ejemplo de la vida real**: Menú de navegación.
 
 ```html
-<nav>
-    <a href="/">Inicio</a>
-    <a href="/productos">Productos</a>
-    <a href="/contacto">Contacto</a>
-</nav>
+(`<nav>`)
+    (`<a href="/">`)Inicio(`</a>`)
+    (`<a href="/productos">`)Productos(`</a>`)
+    (`<a href="/contacto">`)Contacto(`</a>`)
+(`</nav>`)
 ```
 
 **Atributos importantes**:

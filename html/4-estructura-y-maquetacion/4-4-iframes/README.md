@@ -1,11 +1,11 @@
-# Iframes (<iframe>)
+# Iframes ((`<iframe>`))
 
 Incrustar contenido externo.
 
 **Sintaxis**:
 
 ```html
-<iframe src="https://ejemplo.com" width="600" height="400" title="Contenido embebido"></iframe>
+(`<iframe src="https://ejemplo.com" width="600" height="400" title="Contenido embebido">`)(`</iframe>`)
 ```
 
 **Ejemplo de la vida real**: Video de YouTube.
@@ -14,7 +14,7 @@ Incrustar contenido externo.
 <iframe src="https://www.youtube.com/embed/VIDEO_ID" 
         width="560" height="315" 
         title="Video tutorial"
-        allowfullscreen></iframe>
+        allowfullscreen>(`</iframe>`)
 ```
 
 **Atributos importantes**:

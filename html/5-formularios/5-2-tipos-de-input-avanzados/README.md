@@ -1,4 +1,4 @@
-# Tipos de input avanzados (<input type="date">, <input type="file">, etc.)
+# Tipos de input avanzados ((`<input type="date">`), (`<input type="file">`), etc.)
 
 Inputs especializados para datos específicos.
 
@@ -11,8 +11,8 @@ Inputs especializados para datos específicos.
 **Ejemplo de la vida real**: Reserva de cita.
 
 ```html
-<label for="fecha">Fecha de cita:</label>
-<input type="date" id="fecha" name="fecha" required>
+(`<label for="fecha">`)Fecha de cita:(`</label>`)
+(`<input type="date" id="fecha" name="fecha" required>`)
 ```
 
 ## Archivos
@@ -22,7 +22,7 @@ Inputs especializados para datos específicos.
 **Ejemplo de la vida real**: Subir CV.
 
 ```html
-<input type="file" name="cv" accept=".pdf,.doc" multiple>
+(`<input type="file" name="cv" accept=".pdf,.doc" multiple>`)
 ```
 
 ## Otros tipos
@@ -34,8 +34,8 @@ Inputs especializados para datos específicos.
 **Ejemplo de la vida real**: Configuración de perfil.
 
 ```html
-<label>Volumen: <input type="range" min="0" max="100" value="50"></label>
-<input type="color" name="color_favorito">
+(`<label>`)Volumen: (`<input type="range" min="0" max="100" value="50">`)(`</label>`)
+(`<input type="color" name="color_favorito">`)
 ```
 
 **Notas importantes**: Soporte varía por navegador. Usar polyfills si necesario.

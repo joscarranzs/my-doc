@@ -5,43 +5,43 @@ Crear contraseñas seguras con opciones personalizables.
 ## HTML
 
 ```html
-<div class="generador-contrasenas">
-    <h1>Generador de Contraseñas</h1>
+(`<div class="generador-contrasenas">`)
+    (`<h1>`)Generador de Contraseñas(`</h1>`)
     
-    <div class="opciones">
-        <label>
-            <input type="checkbox" id="mayusculas" checked> Mayúsculas (A-Z)
-        </label>
-        <label>
-            <input type="checkbox" id="minusculas" checked> Minúsculas (a-z)
-        </label>
-        <label>
-            <input type="checkbox" id="numeros" checked> Números (0-9)
-        </label>
-        <label>
-            <input type="checkbox" id="simbolos"> Símbolos (!@#$%)
-        </label>
-    </div>
+    (`<div class="opciones">`)
+        (`<label>`)
+            (`<input type="checkbox" id="mayusculas" checked>`) Mayúsculas (A-Z)
+        (`</label>`)
+        (`<label>`)
+            (`<input type="checkbox" id="minusculas" checked>`) Minúsculas (a-z)
+        (`</label>`)
+        (`<label>`)
+            (`<input type="checkbox" id="numeros" checked>`) Números (0-9)
+        (`</label>`)
+        (`<label>`)
+            (`<input type="checkbox" id="simbolos">`) Símbolos (!@#$%)
+        (`</label>`)
+    (`</div>`)
     
-    <div class="longitud">
-        <label for="longitud">Longitud: <span id="valor-longitud">12</span></label>
-        <input type="range" id="longitud" min="4" max="32" value="12">
-    </div>
+    (`<div class="longitud">`)
+        (`<label for="longitud">`)Longitud: (`<span id="valor-longitud">`)12(`</span>`)(`</label>`)
+        (`<input type="range" id="longitud" min="4" max="32" value="12">`)
+    (`</div>`)
     
-    <button id="generar">Generar Contraseña</button>
+    (`<button id="generar">`)Generar Contraseña(`</button>`)
     
-    <div class="resultado">
-        <input type="text" id="contrasena" readonly>
-        <button id="copiar">Copiar</button>
-    </div>
+    (`<div class="resultado">`)
+        (`<input type="text" id="contrasena" readonly>`)
+        (`<button id="copiar">`)Copiar(`</button>`)
+    (`</div>`)
     
-    <div class="seguridad">
-        <div class="barra-fuerza">
-            <div id="barra" class="barra"></div>
-        </div>
-        <span id="texto-fuerza">Fuerza: Débil</span>
-    </div>
-</div>
+    (`<div class="seguridad">`)
+        (`<div class="barra-fuerza">`)
+            (`<div id="barra" class="barra">`)(`</div>`)
+        (`</div>`)
+        (`<span id="texto-fuerza">`)Fuerza: Débil(`</span>`)
+    (`</div>`)
+(`</div>`)
 ```
 
 ## JavaScript
@@ -51,7 +51,7 @@ function generarContrasena() {
     const mayusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const minusculas = 'abcdefghijklmnopqrstuvwxyz';
     const numeros = '0123456789';
-    const simbolos = '!@#$%^&*()_+-=[]{}|;:,.<>?';
+    const simbolos = '!@#$%^&*()_+-=[]{}|;:,.(`<>`)?';
     
     let caracteres = '';
     if (document.getElementById('mayusculas').checked) caracteres += mayusculas;

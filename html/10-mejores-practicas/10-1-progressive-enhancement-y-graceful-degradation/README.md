@@ -9,16 +9,16 @@ Empezar con funcionalidad básica, añadir avanzada.
 **Ejemplo**: Formulario con validación.
 
 ```html
-<form action="/submit">
-    <input type="email" name="email" required>
-    <button type="submit">Enviar</button>
-</form>
-<script>
+(`<form action="/submit">`)
+    (`<input type="email" name="email" required>`)
+    (`<button type="submit">`)Enviar(`</button>`)
+(`</form>`)
+(`<script>`)
     // Añadir validación JS si disponible
     if (document.querySelector) {
         // Código de validación avanzada
     }
-</script>
+(`</script>`)
 ```
 
 ## Graceful Degradation
@@ -28,8 +28,8 @@ Funcionalidad completa, degradar elegantemente.
 **Ejemplo**: Aplicación con WebGL.
 
 ```html
-<canvas id="grafico"></canvas>
-<script>
+(`<canvas id="grafico">`)(`</canvas>`)
+(`<script>`)
     const canvas = document.getElementById('grafico');
     if (canvas.getContext) {
         // WebGL o Canvas
@@ -38,7 +38,7 @@ Funcionalidad completa, degradar elegantemente.
         canvas.style.display = 'none';
         document.getElementById('fallback').style.display = 'block';
     }
-</script>
+(`</script>`)
 ```
 
 **Notas importantes**: Probar en navegadores objetivo. Usar feature detection, no browser detection.

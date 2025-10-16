@@ -36,15 +36,15 @@ Etiquetas que proporcionan información sobre el documento HTML, como descripci�
 
 ## ¿Cómo incluyo imágenes en HTML?
 
-Usa la etiqueta `<img>` con el atributo `src` apuntando a la URL de la imagen. Siempre incluye `alt` para accesibilidad.
+Usa la etiqueta `(`<img>`)` con el atributo `src` apuntando a la URL de la imagen. Siempre incluye `alt` para accesibilidad.
 
 ## ¿Qué es la semántica en HTML?
 
-Usar elementos HTML que describan el significado del contenido, no solo su apariencia. Por ejemplo, `<article>`, `<section>`, `<header>` en lugar de `<div>` genérico.
+Usar elementos HTML que describan el significado del contenido, no solo su apariencia. Por ejemplo, `(`<article>`)`, `(`<section>`)`, `(`<header>`)` en lugar de `(`<div>`)` genérico.
 
 ## ¿HTML es case-sensitive?
 
-No, HTML no es case-sensitive. `<P>`, `<p>`, `<P>` son equivalentes. Sin embargo, se recomienda usar minúsculas por convención.
+No, HTML no es case-sensitive. `(`<P>`)`, `(`<p>`)`, `(`<P>`)` son equivalentes. Sin embargo, se recomienda usar minúsculas por convención.
 
 ## ¿Qué navegadores soportan HTML5?
 
@@ -60,7 +60,7 @@ Todos los navegadores modernos (Chrome, Firefox, Safari, Edge) soportan HTML5. P
 
 ## ¿Qué es un doctype?
 
-La declaración `<!DOCTYPE html>` indica al navegador que use modo standards para renderizar la página.
+La declaración `(`<!DOCTYPE html>`)` indica al navegador que use modo standards para renderizar la página.
 
 ## ¿Puedo usar HTML sin CSS?
 
@@ -72,11 +72,11 @@ Reducir el tamaño del archivo eliminando espacios, saltos de línea y comentari
 
 ## ¿Cómo incluyo videos en HTML?
 
-Usa `<video>` con `<source>` para diferentes formatos. Incluye controles y considera formatos como MP4, WebM.
+Usa `(`<video>`)` con `(`<source>`)` para diferentes formatos. Incluye controles y considera formatos como MP4, WebM.
 
 ## ¿Qué es el viewport meta tag?
 
-`<meta name="viewport" content="width=device-width, initial-scale=1.0">` asegura que el sitio se vea bien en dispositivos móviles.
+`(`<meta name="viewport" content="width=device-width, initial-scale=1.0">`)` asegura que el sitio se vea bien en dispositivos móviles.
 
 ## ¿HTML puede interactuar con bases de datos?
 

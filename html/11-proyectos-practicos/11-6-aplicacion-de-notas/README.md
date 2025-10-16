@@ -5,16 +5,16 @@ CRUD simple con localStorage.
 ## HTML
 
 ```html
-<div class="app-notas">
-    <h1>Mis Notas</h1>
-    <form id="form-nota">
-        <input type="text" id="titulo-nota" placeholder="Título" required>
-        <textarea id="contenido-nota" placeholder="Contenido" required></textarea>
-        <button type="submit">Guardar Nota</button>
-    </form>
+(`<div class="app-notas">`)
+    (`<h1>`)Mis Notas(`</h1>`)
+    (`<form id="form-nota">`)
+        (`<input type="text" id="titulo-nota" placeholder="Título" required>`)
+        (`<textarea id="contenido-nota" placeholder="Contenido" required>`)(`</textarea>`)
+        (`<button type="submit">`)Guardar Nota(`</button>`)
+    (`</form>`)
     
-    <div id="lista-notas"></div>
-</div>
+    (`<div id="lista-notas">`)(`</div>`)
+(`</div>`)
 ```
 
 ## JavaScript
@@ -30,9 +30,9 @@ function mostrarNotas() {
         const divNota = document.createElement('div');
         divNota.className = 'nota';
         divNota.innerHTML = `
-            <h3>${nota.titulo}</h3>
-            <p>${nota.contenido}</p>
-            <button onclick="eliminarNota(${index})">Eliminar</button>
+            (`<h3>`)${nota.titulo}(`</h3>`)
+            (`<p>`)${nota.contenido}(`</p>`)
+            (`<button onclick="eliminarNota(${index})">`)Eliminar(`</button>`)
         `;
         lista.appendChild(divNota);
     });

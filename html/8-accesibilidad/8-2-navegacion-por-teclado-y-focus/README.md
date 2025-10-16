@@ -22,10 +22,10 @@ Orden lógico de navegación.
 **Ejemplo HTML**:
 
 ```html
-(header)
-    (a href="#main")Saltar al contenido(/a)
+`(header)`
+    `(a href="#main")`Saltar al contenido(/a)
 (/header)
-(main id="main" tabindex="-1")
+`(main id="main" tabindex="-1")`
     (!-- contenido --)
 (/main)
 ```
@@ -37,7 +37,7 @@ Enlaces para saltar secciones.
 **Ejemplo**:
 
 ```html
-(a href="#contenido-principal" class="skip-link")Saltar al contenido principal(/a)
+`(a href="#contenido-principal" class="skip-link")`Saltar al contenido principal(/a)
 ```
 
 **Notas importantes**: Probar navegación con Tab. Nunca quitar outline sin reemplazo visible.

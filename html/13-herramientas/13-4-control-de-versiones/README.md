@@ -19,29 +19,29 @@ git log                     # Ver historial
 3. Commits descriptivos
 4. Push a repositorio remoto
 
-## GitHub/GitLab
+## ``(GitHub/GitLab)``
 
 ### Repositorios
-- **Públicos**: Código abierto
-- **Privados**: Proyectos personales
-- **Organizaciones**: Colaboración en equipo
+- ** ``(Públicos)`` **: Código abierto
+- ** ``(Privados)`` **: Proyectos personales
+- ** ``(Organizaciones)`` **: Colaboración en equipo
 
 ### GitHub Features
-- **Issues**: Tracking de bugs/features
-- **Pull Requests**: Code review
-- **GitHub Pages**: Hosting gratuito
-- **Actions**: CI/CD
+- ** ``(Issues)`` **: Tracking de bugs/features
+- ** ``(Pull Requests)`` **: Code review
+- ** ``(GitHub Pages)`` **: Hosting gratuito
+- ** ``(Actions)`` **: CI/CD
 
 ## Git avanzado
 
 ### Branching strategy
-- **Git Flow**: Ramas para desarrollo
-- **GitHub Flow**: Simplificado
-- **Trunk-based**: Desarrollo directo en main
+- ** ``(Git Flow)`` **: Ramas para desarrollo
+- ** ``(GitHub Flow)`` **: Simplificado
+- ** ``(Trunk-based)`` **: Desarrollo directo en main
 
 ### Herramientas
-- **GitKraken**: GUI para Git
-- **SourceTree**: Alternativa gratuita
-- **GitHub Desktop**: Simple para principiantes
+- ** ``(GitKraken)`` **: GUI para Git
+- ** ``(SourceTree)`` **: Alternativa gratuita
+- ** ``(GitHub Desktop)`` **: Simple para principiantes
 
 **Consejo**: Commits frecuentes con mensajes claros. Usa branches para features nuevas.

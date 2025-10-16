@@ -22,29 +22,29 @@ const htmlmin = require('gulp-htmlmin');
 
 gulp.task('minify', () => {
   return gulp.src('src/*.html')
-    .pipe(htmlmin({ collapseWhitespace: true }))
-    .pipe(gulp.dest('dist'));
+    .pipe`(htmlmin({ collapseWhitespace: true })`)
+    .pipe`(gulp.dest('dist')`);
 });
 ```
 
 ## Build tools modernos
 
 ### Vite
-- **Configuración**: Cero configuración
-- **Hot reload**: Instantáneo
-- **Build**: Optimizado
+- ** ``(Configuración)`` **: Cero configuración
+- ** ``(Hot reload)`` **: Instantáneo
+- ** ``(Build)`` **: Optimizado
 
 ### Parcel
-- **Automágico**: Sin configuración
-- **Rápido**: Build paralelo
-- **Soporte**: Múltiples formatos
+- ** ``(Automágico)`` **: Sin configuración
+- ** ``(Rápido)`` **: Build paralelo
+- ** ``(Soporte)`` **: Múltiples formatos
 
-## Preprocesadores
+## ``(Preprocesadores)``
 
-### Pug (HTML)
+### Pug `(HTML)`
 ```pug
 doctype html
-html(lang="es")
+html`(lang="es")`
   head
     title Mi Página
   body
@@ -52,7 +52,7 @@ html(lang="es")
     p= descripcion
 ```
 
-### Sass/SCSS (CSS)
+### Sass/SCSS `(CSS)`
 ```scss
 $primary-color: #007bff;
 
@@ -65,11 +65,11 @@ $primary-color: #007bff;
 }
 ```
 
-## Optimización
+## ``(Optimización)``
 
 ### Herramientas
-- **HTMLMinifier**: Minificar HTML
-- **Imagemin**: Optimizar imágenes
-- **Critical CSS**: CSS crítico inline
+- ** ``(HTMLMinifier)`` **: Minificar HTML
+- ** ``(Imagemin)`` **: Optimizar imágenes
+- ** ``(Critical CSS)`` **: CSS crítico inline
 
 **Consejo**: Automatiza tareas repetitivas. Enfócate en código, no en configuración.

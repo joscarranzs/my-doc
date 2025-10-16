@@ -5,23 +5,23 @@ Mostrar datos en tabla con funcionalidades.
 ## HTML de tabla
 
 ```html
-(table id="tabla-usuarios")
-    (thead)
-        (tr)
-            (th)Nombre(/th)
-            (th)Email(/th)
-            (th)Rol(/th)
-            (th)Acciones(/th)
+`(table id="tabla-usuarios")`
+    `(thead)`
+        `(tr)`
+            `(th)`Nombre(/th)
+            `(th)`Email(/th)
+            `(th)`Rol(/th)
+            `(th)`Acciones(/th)
         (/tr)
     (/thead)
-    (tbody)
-        (tr)
-            (td)Juan Pérez(/td)
-            (td)juan@email.com(/td)
-            (td)Admin(/td)
-            (td)
-                (button class="editar")Editar(/button)
-                (button class="eliminar")Eliminar(/button)
+    `(tbody)`
+        `(tr)`
+            `(td)`Juan Pérez(/td)
+            `(td)`juan@email.com(/td)
+            `(td)`Admin(/td)
+            `(td)`
+                `(button class="editar")`Editar(/button)
+                `(button class="eliminar")`Eliminar(/button)
             (/td)
         (/tr)
         (!-- Más filas --)
@@ -32,7 +32,7 @@ Mostrar datos en tabla con funcionalidades.
 ## Funcionalidad de búsqueda
 
 ```html
-(input type="text" id="busqueda" placeholder="Buscar usuarios...")
+`(input type="text" id="busqueda" placeholder="Buscar usuarios...")`
 ```
 
 ```javascript
@@ -42,12 +42,12 @@ document.getElementById('busqueda').addEventListener('input', function() {
     
     filas.forEach(fila => {
         const texto = fila.textContent.toLowerCase();
-        fila.style.display = texto.includes(filtro) ? '' : 'none';
+        fila.style.display = texto.includes`(filtro)` ? '' : 'none';
     });
 });
 ```
 
-## Ordenamiento
+## ``(Ordenamiento)``
 
 ```javascript
 document.querySelectorAll('th').forEach(header => {

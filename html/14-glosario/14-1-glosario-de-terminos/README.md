@@ -2,117 +2,117 @@
 
 Términos comunes en HTML y desarrollo web.
 
-## A
+## ``(A)``
 
-- **Accesibilidad**: Diseño usable por personas con discapacidades
-- **API**: Application Programming Interface
-- **ARIA**: Accessible Rich Internet Applications
+- ** ``(Accesibilidad)`` **: Diseño usable por personas con discapacidades
+- ** ``(API)`` **: Application Programming Interface
+- ** ``(ARIA)`` **: Accessible Rich Internet Applications
 
-## B
+## ``(B)``
 
-- **Backend**: Lado servidor de aplicación
-- **Bootstrap**: Framework CSS popular
-- **Browser**: Navegador web
+- ** ``(Backend)`` **: Lado servidor de aplicación
+- ** ``(Bootstrap)`` **: Framework CSS popular
+- ** ``(Browser)`` **: Navegador web
 
-## C
+## ``(C)``
 
-- **Cache**: Almacenamiento temporal de datos
-- **Canvas**: Elemento para gráficos 2D/3D
-- **CDN**: Content Delivery Network
-- **CMS**: Content Management System
-- **CSS**: Cascading Style Sheets
-- **CSP**: Content Security Policy
+- ** ``(Cache)`` **: Almacenamiento temporal de datos
+- ** ``(Canvas)`` **: Elemento para gráficos 2D/3D
+- ** ``(CDN)`` **: Content Delivery Network
+- ** ``(CMS)`` **: Content Management System
+- ** ``(CSS)`` **: Cascading Style Sheets
+- ** ``(CSP)`` **: Content Security Policy
 
-## D
+## ``(D)``
 
-- **DOM**: Document Object Model
-- **DOCTYPE**: Declaración de tipo de documento
+- ** ``(DOM)`` **: Document Object Model
+- ** ``(DOCTYPE)`` **: Declaración de tipo de documento
 
-## E
+## ``(E)``
 
-- **Elemento**: Componente HTML básico
-- **Emmet**: Herramienta para escribir HTML rápido
+- ** ``(Elemento)`` **: Componente HTML básico
+- ** ``(Emmet)`` **: Herramienta para escribir HTML rápido
 
-## F
+## ``(F)``
 
-- **Framework**: Estructura reusable para desarrollo
-- **Frontend**: Interfaz de usuario
-- **FTP**: File Transfer Protocol
+- ** ``(Framework)`` **: Estructura reusable para desarrollo
+- ** ``(Frontend)`` **: Interfaz de usuario
+- ** ``(FTP)`` **: File Transfer Protocol
 
-## G
+## ``(G)``
 
-- **Git**: Sistema de control de versiones
-- **Grid**: Sistema de layout CSS
+- ** ``(Git)`` **: Sistema de control de versiones
+- ** ``(Grid)`` **: Sistema de layout CSS
 
-## H
+## ``(H)``
 
-- **Hosting**: Servicio de alojamiento web
-- **HTML**: HyperText Markup Language
-- **HTTP**: HyperText Transfer Protocol
-- **HTTPS**: HTTP Secure
+- ** ``(Hosting)`` **: Servicio de alojamiento web
+- ** ``(HTML)`` **: HyperText Markup Language
+- ** ``(HTTP)`` **: HyperText Transfer Protocol
+- ** ``(HTTPS)`` **: HTTP Secure
 
-## I
+## ``(I)``
 
-- **IDE**: Integrated Development Environment
-- **Iframe**: Ventana inline para contenido externo
+- ** ``(IDE)`` **: Integrated Development Environment
+- ** ``(Iframe)`` **: Ventana inline para contenido externo
 
-## J
+## ``(J)``
 
-- **JavaScript**: Lenguaje de programación web
-- **JSON**: JavaScript Object Notation
-- **JSX**: Sintaxis para React
+- ** ``(JavaScript)`` **: Lenguaje de programación web
+- ** ``(JSON)`` **: JavaScript Object Notation
+- ** ``(JSX)`` **: Sintaxis para React
 
-## L
+## ``(L)``
 
-- **Lazy loading**: Carga diferida de recursos
-- **Library**: Colección de código reusable
+- ** ``(Lazy loading)`` **: Carga diferida de recursos
+- ** ``(Library)`` **: Colección de código reusable
 
-## M
+## ``(M)``
 
-- **Meta tags**: Información sobre el documento
-- **Mobile-first**: Diseño comenzando por móvil
+- ** ``(Meta tags)`` **: Información sobre el documento
+- ** ``(Mobile-first)`` **: Diseño comenzando por móvil
 
-## P
+## ``(P)``
 
-- **PWA**: Progressive Web App
-- **PHP**: Lenguaje de servidor
+- ** ``(PWA)`` **: Progressive Web App
+- ** ``(PHP)`` **: Lenguaje de servidor
 
-## R
+## ``(R)``
 
-- **React**: Framework JavaScript de Facebook
-- **Responsive**: Diseño adaptable a diferentes pantallas
+- ** ``(React)`` **: Framework JavaScript de Facebook
+- ** ``(Responsive)`` **: Diseño adaptable a diferentes pantallas
 
-## S
+## ``(S)``
 
-- **SEO**: Search Engine Optimization
-- **Semantic HTML**: HTML con significado
-- **SPA**: Single Page Application
-- **SSL**: Secure Sockets Layer
+- ** ``(SEO)`` **: Search Engine Optimization
+- ** ``(Semantic HTML)`` **: HTML con significado
+- ** ``(SPA)`` **: Single Page Application
+- ** ``(SSL)`` **: Secure Sockets Layer
 
-## T
+## ``(T)``
 
-- **Tag**: Etiqueta HTML
-- **Template**: Plantilla reusable
+- ** ``(Tag)`` **: Etiqueta HTML
+- ** ``(Template)`` **: Plantilla reusable
 
-## U
+## ``(U)``
 
-- **UI**: User Interface
-- **UX**: User Experience
-- **URL**: Uniform Resource Locator
+- ** ``(UI)`` **: User Interface
+- ** ``(UX)`` **: User Experience
+- ** ``(URL)`` **: Uniform Resource Locator
 
-## V
+## ``(V)``
 
-- **Validation**: Verificación de código
-- **Viewport**: Área visible del navegador
+- ** ``(Validation)`` **: Verificación de código
+- ** ``(Viewport)`` **: Área visible del navegador
 
-## W
+## ``(W)``
 
-- **Web Components**: Componentes web nativos
-- **Webpack**: Bundler de módulos
+- ** ``(Web Components)`` **: Componentes web nativos
+- ** ``(Webpack)`` **: Bundler de módulos
 
-## X
+## ``(X)``
 
-- **XML**: Extensible Markup Language
-- **XSS**: Cross-Site Scripting
+- ** ``(XML)`` **: Extensible Markup Language
+- ** ``(XSS)`` **: Cross-Site Scripting
 
 **Nota**: Este glosario crece con la experiencia. Investiga términos desconocidos.

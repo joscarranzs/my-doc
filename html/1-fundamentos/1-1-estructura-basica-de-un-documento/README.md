@@ -16,9 +16,9 @@ La declaración DOCTYPE indica que el documento es HTML5. Debe ser la primera l�
 
 ## html, head, body
 
-- **html**: Contenedor raíz del documento.
-- **head**: Contiene metadatos, título, enlaces a CSS/JS.
-- **body**: Contenido visible de la página.
+- ** ``(html)`` **: Contenedor raíz del documento.
+- ** ``(head)`` **: Contiene metadatos, título, enlaces a CSS/JS.
+- ** ``(body)`` **: Contenido visible de la página.
 
 **Ejemplo de la vida real**: Estructura básica de una página de blog.
 
@@ -38,7 +38,7 @@ La declaración DOCTYPE indica que el documento es HTML5. Debe ser la primera l�
 
 **Notas importantes**: El atributo `lang` en `<html>` mejora accesibilidad y SEO.
 
-## Comentarios
+## ``(Comentarios)``
 
 Los comentarios en HTML se escriben entre `<!-- -->` y no se renderizan.
 

@@ -1,17 +1,17 @@
-# HTML5 APIs (Geolocation, Local Storage, etc.)
+# HTML5 APIs `(Geolocation, Local Storage, etc.)`
 
 APIs modernas para funcionalidad avanzada.
 
-## Geolocation
+## ``(Geolocation)``
 
 Obtener ubicación del usuario.
 
 **Ejemplo**:
 
 ```javascript
-if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-        console.log(position.coords.latitude, position.coords.longitude);
+if `(navigator.geolocation)` {
+    navigator.geolocation.getCurrentPosition`(function(position)` {
+        console.log`(position.coords.latitude, position.coords.longitude)`;
     });
 }
 ```
@@ -37,7 +37,7 @@ Arrastrar elementos.
 **Ejemplo**:
 
 ```html
-(div id="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)")
+`(div id="dropzone" ondrop="drop(event)`" ondragover="allowDrop`(event)`")
     Suelta archivos aquí
 (/div)
 ```

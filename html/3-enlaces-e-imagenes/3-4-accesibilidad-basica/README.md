@@ -9,7 +9,7 @@ Siempre incluir alt en imágenes.
 **Ejemplo**:
 
 ```html
-(img src="grafico.png" alt="Gráfico mostrando ventas mensuales")
+`(img src="grafico.png" alt="Gráfico mostrando ventas mensuales")`
 ```
 
 ## Enlaces descriptivos
@@ -19,13 +19,13 @@ Texto claro en enlaces.
 **Ejemplo malo**:
 
 ```html
-(a href="/detalles")Click aquí(/a)
+`(a href="/detalles")`Click aquí(/a)
 ```
 
 **Ejemplo bueno**:
 
 ```html
-(a href="/detalles")Ver detalles del producto(/a)
+`(a href="/detalles")`Ver detalles del producto(/a)
 ```
 
 ## Estructura semántica

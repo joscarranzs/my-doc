@@ -4,53 +4,53 @@ Herramientas que complementan HTML.
 
 ## Frameworks CSS
 
-- **Bootstrap**: https://getbootstrap.com/
+- ** ``(Bootstrap)`` **: https://getbootstrap.com/
   - Componentes preconstruidos
   - Sistema de grid responsivo
   - JavaScript opcional
 
-- **Tailwind CSS**: https://tailwindcss.com/
+- ** ``(Tailwind CSS)`` **: https://tailwindcss.com/
   - Utility-first CSS
   - Altamente personalizable
   - Sin estilos preconstruidos
 
-- **Bulma**: https://bulma.io/
+- ** ``(Bulma)`` **: https://bulma.io/
   - Framework CSS puro
   - Componentes modernos
   - Fácil de aprender
 
 ## Librerías JavaScript
 
-- **jQuery**: https://jquery.com/
+- ** ``(jQuery)`` **: https://jquery.com/
   - Manipulación DOM simplificada
   - AJAX fácil
   - Amplia compatibilidad
 
-- **Alpine.js**: https://alpinejs.dev/
+- ** ``(Alpine.js)`` **: https://alpinejs.dev/
   - Framework ligero
   - Reactividad simple
   - Sin build process
 
 ## Herramientas de construcción
 
-- **Vite**: https://vitejs.dev/
+- ** ``(Vite)`` **: https://vitejs.dev/
   - Build tool rápido
   - Hot reload
   - Soporte moderno
 
-- **Parcel**: https://parceljs.org/
+- ** ``(Parcel)`` **: https://parceljs.org/
   - Zero config
   - Build automático
   - Múltiples formatos
 
-## Preprocesadores
+## ``(Preprocesadores)``
 
-- **Pug**: https://pugjs.org/
+- ** ``(Pug)`` **: https://pugjs.org/
   - HTML templating
   - Sintaxis limpia
   - Variables y mixins
 
-- **Haml**: http://haml.info/
+- ** ``(Haml)`` **: http://haml.info/
   - Similar a Pug
   - Popular en Ruby
 

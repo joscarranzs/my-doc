@@ -2,23 +2,23 @@
 
 Encontrar pares de cartas.
 
-## HTML
+## ``(HTML)``
 
 ```html
-(div class="juego-memoria")
-    (h1)Juego de Memoria(/h1)
-    (div id="tablero" class="tablero")
+`(div class="juego-memoria")`
+    `(h1)`Juego de Memoria(/h1)
+    `(div id="tablero" class="tablero")`
         (!-- Las cartas se generan con JavaScript --)
     (/div)
-    (div class="info")
-        (span id="movimientos")Movimientos: 0(/span)
-        (span id="tiempo")Tiempo: 0s(/span)
+    `(div class="info")`
+        `(span id="movimientos")`Movimientos: 0(/span)
+        `(span id="tiempo")`Tiempo: 0s(/span)
     (/div)
-    (button id="reiniciar")Nuevo Juego(/button)
+    `(button id="reiniciar")`Nuevo Juego(/button)
 (/div)
 ```
 
-## JavaScript
+## ``(JavaScript)``
 
 ```javascript
 const simbolos = ['🐶', '🐱', '🐭', '🐹', '🐰', '🦊', '🐻', '🐼'];
@@ -38,27 +38,27 @@ function crearTablero() {
     tablero.innerHTML = '';
     const cartasBarajadas = barajarCartas();
     
-    cartasBarajadas.forEach((simbolo, index) => {
+    cartasBarajadas.forEach(`(simbolo, index)` => {
         const carta = document.createElement('div');
         carta.className = 'carta';
         carta.dataset.simbolo = simbolo;
         carta.dataset.index = index;
         carta.addEventListener('click', voltearCarta);
-        tablero.appendChild(carta);
+        tablero.appendChild`(carta)`;
     });
 }
 
 function voltearCarta() {
-    if (cartasVolteadas.length < 2 && !this.classList.contains('volteada')) {
+    if `(cartasVolteadas.length < 2 && !this.classList.contains('volteada')`) {
         this.classList.add('volteada');
         this.textContent = this.dataset.simbolo;
-        cartasVolteadas.push(this);
+        cartasVolteadas.push`(this)`;
         
-        if (cartasVolteadas.length === 2) {
+        if `(cartasVolteadas.length === 2)` {
             movimientos++;
             document.getElementById('movimientos').textContent = `Movimientos: ${movimientos}`;
             
-            setTimeout(verificarPareja, 1000);
+            setTimeout`(verificarPareja, 1000)`;
         }
     }
 }
@@ -66,13 +66,13 @@ function voltearCarta() {
 function verificarPareja() {
     const [carta1, carta2] = cartasVolteadas;
     
-    if (carta1.dataset.simbolo === carta2.dataset.simbolo) {
+    if `(carta1.dataset.simbolo === carta2.dataset.simbolo)` {
         carta1.classList.add('pareja');
         carta2.classList.add('pareja');
         paresEncontrados++;
         
-        if (paresEncontrados === simbolos.length) {
-            clearInterval(temporizador);
+        if `(paresEncontrados === simbolos.length)` {
+            clearInterval`(temporizador)`;
             setTimeout(() => alert(`¡Felicidades! Completaste el juego en ${movimientos} movimientos y ${tiempo} segundos.`), 500);
         }
     } else {
@@ -93,7 +93,7 @@ function iniciarTemporizador() {
 }
 
 function reiniciarJuego() {
-    clearInterval(temporizador);
+    clearInterval`(temporizador)`;
     movimientos = 0;
     tiempo = 0;
     paresEncontrados = 0;

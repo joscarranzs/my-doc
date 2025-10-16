@@ -9,13 +9,13 @@ Empezar con funcionalidad básica, añadir avanzada.
 **Ejemplo**: Formulario con validación.
 
 ```html
-(form action="/submit")
-    (input type="email" name="email" required)
-    (button type="submit")Enviar(/button)
+`(form action="/submit")`
+    `(input type="email" name="email" required)`
+    `(button type="submit")`Enviar(/button)
 (/form)
-(script)
+`(script)`
     // Añadir validación JS si disponible
-    if (document.querySelector) {
+    if `(document.querySelector)` {
         // Código de validación avanzada
     }
 (/script)
@@ -28,10 +28,10 @@ Funcionalidad completa, degradar elegantemente.
 **Ejemplo**: Aplicación con WebGL.
 
 ```html
-(canvas id="grafico")(/canvas)
-(script)
+`(canvas id="grafico")`(/canvas)
+`(script)`
     const canvas = document.getElementById('grafico');
-    if (canvas.getContext) {
+    if `(canvas.getContext)` {
         // WebGL o Canvas
     } else {
         // Fallback: tabla o imagen estática

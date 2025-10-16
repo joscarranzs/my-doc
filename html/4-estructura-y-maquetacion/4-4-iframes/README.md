@@ -1,11 +1,11 @@
-# Iframes ((iframe))
+# Iframes (`(iframe)`)
 
 Incrustar contenido externo.
 
 **Sintaxis**:
 
 ```html
-(iframe src="https://ejemplo.com" width="600" height="400" title="Contenido embebido")(/iframe)
+`(iframe src="https://ejemplo.com" width="600" height="400" title="Contenido embebido")`(/iframe)
 ```
 
 **Ejemplo de la vida real**: Video de YouTube.
@@ -18,8 +18,8 @@ Incrustar contenido externo.
 ```
 
 **Atributos importantes**:
-- **src**: URL del contenido.
-- **title**: Descripción para accesibilidad.
-- **width/height**: Dimensiones.
+- ** ``(src)`` **: URL del contenido.
+- ** ``(title)`` **: Descripción para accesibilidad.
+- ** ``(width/height)`` **: Dimensiones.
 
-**Notas importantes**: Precaución con seguridad (XSS). Usar sandbox para contenido no confiable.
+**Notas importantes**: Precaución con seguridad `(XSS)`. Usar sandbox para contenido no confiable.

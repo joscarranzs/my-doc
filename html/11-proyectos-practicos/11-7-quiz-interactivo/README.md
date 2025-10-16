@@ -2,29 +2,29 @@
 
 Preguntas con opciones múltiples.
 
-## HTML
+## ``(HTML)``
 
 ```html
-(div class="quiz")
-    (div id="pregunta-container")
-        (h2 id="pregunta-texto")¿Cuál es la capital de Francia?(/h2)
-        (div class="opciones")
-            (button class="opcion" data-correcta="false")Londres(/button)
-            (button class="opcion" data-correcta="false")Madrid(/button)
-            (button class="opcion" data-correcta="true")París(/button)
-            (button class="opcion" data-correcta="false")Roma(/button)
+`(div class="quiz")`
+    `(div id="pregunta-container")`
+        `(h2 id="pregunta-texto")`¿Cuál es la capital de Francia?(/h2)
+        `(div class="opciones")`
+            `(button class="opcion" data-correcta="false")`Londres(/button)
+            `(button class="opcion" data-correcta="false")`Madrid(/button)
+            `(button class="opcion" data-correcta="true")`París(/button)
+            `(button class="opcion" data-correcta="false")`Roma(/button)
         (/div)
     (/div)
     
-    (div id="resultado" style="display: none;")
-        (h2)Resultado(/h2)
-        (p id="puntuacion")Puntuación: 0/10(/p)
-        (button id="reiniciar")Reiniciar Quiz(/button)
+    `(div id="resultado" style="display: none;")`
+        `(h2)`Resultado(/h2)
+        `(p id="puntuacion")`Puntuación: 0/10(/p)
+        `(button id="reiniciar")`Reiniciar Quiz(/button)
     (/div)
 (/div)
 ```
 
-## JavaScript
+## ``(JavaScript)``
 
 ```javascript
 const preguntas = [
@@ -44,20 +44,20 @@ function mostrarPregunta() {
     document.getElementById('pregunta-texto').textContent = pregunta.pregunta;
     
     const botones = document.querySelectorAll('.opcion');
-    botones.forEach((boton, index) => {
+    botones.forEach(`(boton, index)` => {
         boton.textContent = pregunta.opciones[index];
-        boton.onclick = () => seleccionarOpcion(index);
+        boton.onclick = () => seleccionarOpcion`(index)`;
     });
 }
 
-function seleccionarOpcion(index) {
-    if (index === preguntas[preguntaActual].correcta) {
+function seleccionarOpcion`(index)` {
+    if `(index === preguntas[preguntaActual].correcta)` {
         puntuacion++;
     }
     
     preguntaActual++;
     
-    if (preguntaActual < preguntas.length) {
+    if `(preguntaActual < preguntas.length)` {
         mostrarPregunta();
     } else {
         mostrarResultado();

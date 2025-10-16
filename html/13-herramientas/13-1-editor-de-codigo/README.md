@@ -17,7 +17,7 @@ Herramientas para escribir HTML eficientemente.
 - Paquetes para HTML
 - Multi-cursor editing
 
-### Atom (descontinuado)
+### Atom `(descontinuado)`
 - GitHub's editor
 - Buena integración con Git
 

@@ -6,43 +6,43 @@ Proyecto simple para practicar fundamentos de HTML.
 
 ```html
 (!DOCTYPE html)
-(html lang="es")
-(head)
-    (meta charset="UTF-8")
-    (meta name="viewport" content="width=device-width, initial-scale=1.0")
-    (title)Mi Página Personal(/title)
+`(html lang="es")`
+`(head)`
+    `(meta charset="UTF-8")`
+    `(meta name="viewport" content="width=device-width, initial-scale=1.0")`
+    `(title)`Mi Página Personal(/title)
 (/head)
-(body)
-    (header)
-        (h1)Juan Pérez(/h1)
-        (p)Desarrollador Web(/p)
+`(body)`
+    `(header)`
+        `(h1)`Juan Pérez(/h1)
+        `(p)`Desarrollador Web(/p)
     (/header)
     
-    (nav)
-        (ul)
-            (li)(a href="#sobre-mi")Sobre mí(/a)(/li)
-            (li)(a href="#proyectos")Proyectos(/a)(/li)
-            (li)(a href="#contacto")Contacto(/a)(/li)
+    `(nav)`
+        `(ul)`
+            `(li)``(a href="#sobre-mi")`Sobre mí(/a)(/li)
+            `(li)``(a href="#proyectos")`Proyectos(/a)(/li)
+            `(li)``(a href="#contacto")`Contacto(/a)(/li)
         (/ul)
     (/nav)
     
-    (main)
-        (section id="sobre-mi")
-            (h2)Sobre mí(/h2)
-            (p)Soy un desarrollador apasionado por la tecnología...(/p)
+    `(main)`
+        `(section id="sobre-mi")`
+            `(h2)`Sobre mí(/h2)
+            `(p)`Soy un desarrollador apasionado por la tecnología...(/p)
         (/section)
         
-        (section id="proyectos")
-            (h2)Proyectos(/h2)
-            (article)
-                (h3)Proyecto 1(/h3)
-                (p)Descripción del proyecto...(/p)
+        `(section id="proyectos")`
+            `(h2)`Proyectos(/h2)
+            `(article)`
+                `(h3)`Proyecto 1(/h3)
+                `(p)`Descripción del proyecto...(/p)
             (/article)
         (/section)
     (/main)
     
-    (footer)
-        (p)&copy; 2023 Juan Pérez(/p)
+    `(footer)`
+        `(p)`&copy; 2023 Juan Pérez(/p)
     (/footer)
 (/body)
 (/html)

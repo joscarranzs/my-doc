@@ -5,16 +5,16 @@ Mostrar imágenes en grid responsivo.
 ## HTML básico
 
 ```html
-(section class="galeria")
-    (h2)Mis Fotos(/h2)
-    (div class="grid-imagenes")
-        (figure)
-            (img src="foto1.jpg" alt="Descripción foto 1" loading="lazy")
-            (figcaption)Descripción de la foto 1(/figcaption)
+`(section class="galeria")`
+    `(h2)`Mis Fotos(/h2)
+    `(div class="grid-imagenes")`
+        `(figure)`
+            `(img src="foto1.jpg" alt="Descripción foto 1" loading="lazy")`
+            `(figcaption)`Descripción de la foto 1(/figcaption)
         (/figure)
-        (figure)
-            (img src="foto2.jpg" alt="Descripción foto 2" loading="lazy")
-            (figcaption)Descripción de la foto 2(/figcaption)
+        `(figure)`
+            `(img src="foto2.jpg" alt="Descripción foto 2" loading="lazy")`
+            `(figcaption)`Descripción de la foto 2(/figcaption)
         (/figure)
         (!-- Más imágenes --)
     (/div)
@@ -24,10 +24,10 @@ Mostrar imágenes en grid responsivo.
 ## Modal para vista ampliada
 
 ```html
-(div id="modal" class="modal")
-    (span class="cerrar")&times;(/span)
-    (img id="imagen-modal" class="imagen-modal")
-    (div id="caption")(/div)
+`(div id="modal" class="modal")`
+    `(span class="cerrar")`&times;(/span)
+    `(img id="imagen-modal" class="imagen-modal")`
+    `(div id="caption")`(/div)
 (/div)
 ```
 

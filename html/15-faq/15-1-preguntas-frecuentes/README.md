@@ -4,7 +4,7 @@ Respuestas a dudas comunes sobre HTML.
 
 ## ¿Qué es HTML?
 
-HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web. Define la estructura y contenido de una página web mediante elementos marcados con tags.
+HTML `(HyperText Markup Language)` es el lenguaje estándar para crear páginas web. Define la estructura y contenido de una página web mediante elementos marcados con tags.
 
 ## ¿Necesito saber programar para usar HTML?
 
@@ -24,7 +24,7 @@ Usa el validador W3C: https://validator.w3.org/. Pega tu código o ingresa una U
 
 ## ¿Qué significa "responsive design"?
 
-Diseño que se adapta a diferentes tamaños de pantalla (móvil, tablet, desktop) usando media queries en CSS.
+Diseño que se adapta a diferentes tamaños de pantalla `(móvil, tablet, desktop)` usando media queries en CSS.
 
 ## ¿Debo usar tablas para layout?
 
@@ -36,19 +36,19 @@ Etiquetas que proporcionan información sobre el documento HTML, como descripci�
 
 ## ¿Cómo incluyo imágenes en HTML?
 
-Usa la etiqueta `(img)` con el atributo `src` apuntando a la URL de la imagen. Siempre incluye `alt` para accesibilidad.
+Usa la etiqueta ``(img)`` con el atributo `src` apuntando a la URL de la imagen. Siempre incluye `alt` para accesibilidad.
 
 ## ¿Qué es la semántica en HTML?
 
-Usar elementos HTML que describan el significado del contenido, no solo su apariencia. Por ejemplo, `(article)`, `(section)`, `(header)` en lugar de `(div)` genérico.
+Usar elementos HTML que describan el significado del contenido, no solo su apariencia. Por ejemplo, ``(article)``, ``(section)``, ``(header)`` en lugar de ``(div)`` genérico.
 
 ## ¿HTML es case-sensitive?
 
-No, HTML no es case-sensitive. `(P)`, `(p)`, `(P)` son equivalentes. Sin embargo, se recomienda usar minúsculas por convención.
+No, HTML no es case-sensitive. ``(P)``, ``(p)``, ``(P)`` son equivalentes. Sin embargo, se recomienda usar minúsculas por convención.
 
 ## ¿Qué navegadores soportan HTML5?
 
-Todos los navegadores modernos (Chrome, Firefox, Safari, Edge) soportan HTML5. Para soporte legacy, usa polyfills.
+Todos los navegadores modernos `(Chrome, Firefox, Safari, Edge)` soportan HTML5. Para soporte legacy, usa polyfills.
 
 ## ¿Cómo hago mi sitio accesible?
 
@@ -72,11 +72,11 @@ Reducir el tamaño del archivo eliminando espacios, saltos de línea y comentari
 
 ## ¿Cómo incluyo videos en HTML?
 
-Usa `(video)` con `(source)` para diferentes formatos. Incluye controles y considera formatos como MP4, WebM.
+Usa ``(video)`` con ``(source)`` para diferentes formatos. Incluye controles y considera formatos como MP4, WebM.
 
 ## ¿Qué es el viewport meta tag?
 
-`(meta name="viewport" content="width=device-width, initial-scale=1.0")` asegura que el sitio se vea bien en dispositivos móviles.
+``(meta name="viewport" content="width=device-width, initial-scale=1.0")`` asegura que el sitio se vea bien en dispositivos móviles.
 
 ## ¿HTML puede interactuar con bases de datos?
 

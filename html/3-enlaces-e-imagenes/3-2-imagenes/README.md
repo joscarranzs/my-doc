@@ -1,20 +1,20 @@
-# Imágenes (`(`<img>`)`)
+# Imágenes (`(img)`)
 
 Incrustar imágenes en la página.
 
 **Sintaxis**:
 
 ```html
-(`<img src="ruta/imagen.jpg" alt="Descripción">`)
+(img src="ruta/imagen.jpg" alt="Descripción")
 ```
 
 **Ejemplo de la vida real**: Galería de fotos.
 
 ```html
-(`<figure>`)
-    (`<img src="foto.jpg" alt="Paisaje montañoso" width="300" height="200">`)
-    (`<figcaption>`)Un hermoso paisaje(`</figcaption>`)
-(`</figure>`)
+(figure)
+    (img src="foto.jpg" alt="Paisaje montañoso" width="300" height="200")
+    (figcaption)Un hermoso paisaje(/figcaption)
+(/figure)
 ```
 
 **Atributos importantes**:

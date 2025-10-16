@@ -11,9 +11,9 @@ Validar sintaxis HTML.
 **Ejemplo error común**:
 
 ```html
-(`<!-- Error: etiqueta no cerrada -->`)
-(`<p>`)Párrafo sin cerrar
-(`<div>`)otro elemento
+(!-- Error: etiqueta no cerrada --)
+(p)Párrafo sin cerrar
+(div)otro elemento
 ```
 
 ## Browser DevTools

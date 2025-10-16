@@ -5,30 +5,30 @@ Operaciones matemáticas básicas.
 ## HTML
 
 ```html
-(`<div class="calculadora">`)
-    (`<input type="text" id="pantalla" readonly>`)
-    (`<div class="botones">`)
-        (`<button class="numero">`)7(`</button>`)
-        (`<button class="numero">`)8(`</button>`)
-        (`<button class="numero">`)9(`</button>`)
-        (`<button class="operador">`)+(`</button>`)
+(div class="calculadora")
+    (input type="text" id="pantalla" readonly)
+    (div class="botones")
+        (button class="numero")7(/button)
+        (button class="numero")8(/button)
+        (button class="numero")9(/button)
+        (button class="operador")+(/button)
         
-        (`<button class="numero">`)4(`</button>`)
-        (`<button class="numero">`)5(`</button>`)
-        (`<button class="numero">`)6(`</button>`)
-        (`<button class="operador">`)-(`</button>`)
+        (button class="numero")4(/button)
+        (button class="numero")5(/button)
+        (button class="numero")6(/button)
+        (button class="operador")-(/button)
         
-        (`<button class="numero">`)1(`</button>`)
-        (`<button class="numero">`)2(`</button>`)
-        (`<button class="numero">`)3(`</button>`)
-        (`<button class="operador">`)*(`</button>`)
+        (button class="numero")1(/button)
+        (button class="numero")2(/button)
+        (button class="numero")3(/button)
+        (button class="operador")*(/button)
         
-        (`<button class="numero">`)0(`</button>`)
-        (`<button class="igual">`)=(`</button>`)
-        (`<button class="limpiar">`)C(`</button>`)
-        (`<button class="operador">`)/(`</button>`)
-    (`</div>`)
-(`</div>`)
+        (button class="numero")0(/button)
+        (button class="igual")=(/button)
+        (button class="limpiar")C(/button)
+        (button class="operador")/(/button)
+    (/div)
+(/div)
 ```
 
 ## JavaScript

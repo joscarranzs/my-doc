@@ -5,17 +5,17 @@ Encontrar pares de cartas.
 ## HTML
 
 ```html
-(`<div class="juego-memoria">`)
-    (`<h1>`)Juego de Memoria(`</h1>`)
-    (`<div id="tablero" class="tablero">`)
-        (`<!-- Las cartas se generan con JavaScript -->`)
-    (`</div>`)
-    (`<div class="info">`)
-        (`<span id="movimientos">`)Movimientos: 0(`</span>`)
-        (`<span id="tiempo">`)Tiempo: 0s(`</span>`)
-    (`</div>`)
-    (`<button id="reiniciar">`)Nuevo Juego(`</button>`)
-(`</div>`)
+(div class="juego-memoria")
+    (h1)Juego de Memoria(/h1)
+    (div id="tablero" class="tablero")
+        (!-- Las cartas se generan con JavaScript --)
+    (/div)
+    (div class="info")
+        (span id="movimientos")Movimientos: 0(/span)
+        (span id="tiempo")Tiempo: 0s(/span)
+    (/div)
+    (button id="reiniciar")Nuevo Juego(/button)
+(/div)
 ```
 
 ## JavaScript

@@ -1,23 +1,23 @@
-# Web Components ((`<template>`), (`<slot>`), (`<shadow-dom>`))
+# Web Components ((template), (slot), (shadow-dom))
 
 Componentes reutilizables nativos.
 
-## (`<template>`)
+## (template)
 
 Plantilla inerte.
 
 **Ejemplo**:
 
 ```html
-(`<template id="mi-template">`)
-    (`<style>`)
+(template id="mi-template")
+    (style)
         .card { border: 1px solid #ccc; padding: 10px; }
-    (`</style>`)
-    (`<div class="card">`)
-        (`<h3>`)(`<slot name="titulo">`)Título(`</slot>`)(`</h3>`)
-        (`<p>`)(`<slot name="contenido">`)Contenido(`</slot>`)(`</p>`)
-    (`</div>`)
-(`</template>`)
+    (/style)
+    (div class="card")
+        (h3)(slot name="titulo")Título(/slot)(/h3)
+        (p)(slot name="contenido")Contenido(/slot)(/p)
+    (/div)
+(/template)
 ```
 
 ## Custom Elements
@@ -41,10 +41,10 @@ customElements.define('mi-card', MiCard);
 **Uso**:
 
 ```html
-(`<mi-card>`)
-    (`<span slot="titulo">`)Mi Título(`</span>`)
-    (`<span slot="contenido">`)Mi contenido(`</span>`)
-(`</mi-card>`)
+(mi-card)
+    (span slot="titulo")Mi Título(/span)
+    (span slot="contenido")Mi contenido(/span)
+(/mi-card)
 ```
 
 **Notas importantes**: Soporte moderno. Polyfills disponibles para navegadores antiguos.

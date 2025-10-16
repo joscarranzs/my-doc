@@ -37,9 +37,9 @@ Arrastrar elementos.
 **Ejemplo**:
 
 ```html
-(`<div id="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)">`)
+(div id="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)")
     Suelta archivos aquí
-(`</div>`)
+(/div)
 ```
 
 **Notas importantes**: Pedir permisos apropiadamente. Manejar errores de soporte.

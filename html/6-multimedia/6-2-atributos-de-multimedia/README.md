@@ -9,9 +9,9 @@ Muestra controles de reproducción.
 **Ejemplo**:
 
 ```html
-(`<video controls>`)
-    (`<source src="video.mp4" type="video/mp4">`)
-(`</video>`)
+(video controls)
+    (source src="video.mp4" type="video/mp4")
+(/video)
 ```
 
 ## autoplay
@@ -21,9 +21,9 @@ Reproduce automáticamente (con restricciones).
 **Ejemplo**:
 
 ```html
-(`<audio autoplay muted>`)
-    (`<source src="musica.mp3" type="audio/mpeg">`)
-(`</audio>`)
+(audio autoplay muted)
+    (source src="musica.mp3" type="audio/mpeg")
+(/audio)
 ```
 
 **Nota**: Autoplay requiere muted en la mayoría de navegadores.
@@ -35,9 +35,9 @@ Repite indefinidamente.
 **Ejemplo de la vida real**: Música de fondo.
 
 ```html
-(`<audio loop>`)
-    (`<source src="ambient.mp3" type="audio/mpeg">`)
-(`</audio>`)
+(audio loop)
+    (source src="ambient.mp3" type="audio/mpeg")
+(/audio)
 ```
 
 ## muted

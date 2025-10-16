@@ -5,34 +5,34 @@ Convertir entre diferentes unidades de medida.
 ## HTML
 
 ```html
-(`<div class="conversor-unidades">`)
-    (`<h1>`)Conversor de Unidades(`</h1>`)
+(div class="conversor-unidades")
+    (h1)Conversor de Unidades(/h1)
     
-    (`<div class="conversor">`)
-        (`<select id="categoria">`)
-            (`<option value="longitud">`)Longitud(`</option>`)
-            (`<option value="peso">`)Peso(`</option>`)
-            (`<option value="temperatura">`)Temperatura(`</option>`)
-            (`<option value="volumen">`)Volumen(`</option>`)
-        (`</select>`)
+    (div class="conversor")
+        (select id="categoria")
+            (option value="longitud")Longitud(/option)
+            (option value="peso")Peso(/option)
+            (option value="temperatura")Temperatura(/option)
+            (option value="volumen")Volumen(/option)
+        (/select)
         
-        (`<div class="entrada">`)
-            (`<input type="number" id="valor-entrada" placeholder="Valor">`)
-            (`<select id="unidad-entrada">`)
-                (`<!-- Se llena dinámicamente -->`)
-            (`</select>`)
-        (`</div>`)
+        (div class="entrada")
+            (input type="number" id="valor-entrada" placeholder="Valor")
+            (select id="unidad-entrada")
+                (!-- Se llena dinámicamente --)
+            (/select)
+        (/div)
         
-        (`<div class="salida">`)
-            (`<input type="number" id="valor-salida" readonly>`)
-            (`<select id="unidad-salida">`)
-                (`<!-- Se llena dinámicamente -->`)
-            (`</select>`)
-        (`</div>`)
-    (`</div>`)
+        (div class="salida")
+            (input type="number" id="valor-salida" readonly)
+            (select id="unidad-salida")
+                (!-- Se llena dinámicamente --)
+            (/select)
+        (/div)
+    (/div)
     
-    (`<button id="intercambiar">`)↔ Intercambiar(`</button>`)
-(`</div>`)
+    (button id="intercambiar")↔ Intercambiar(/button)
+(/div)
 ```
 
 ## JavaScript

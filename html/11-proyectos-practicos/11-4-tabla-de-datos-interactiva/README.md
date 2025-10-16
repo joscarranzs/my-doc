@@ -5,34 +5,34 @@ Mostrar datos en tabla con funcionalidades.
 ## HTML de tabla
 
 ```html
-(`<table id="tabla-usuarios">`)
-    (`<thead>`)
-        (`<tr>`)
-            (`<th>`)Nombre(`</th>`)
-            (`<th>`)Email(`</th>`)
-            (`<th>`)Rol(`</th>`)
-            (`<th>`)Acciones(`</th>`)
-        (`</tr>`)
-    (`</thead>`)
-    (`<tbody>`)
-        (`<tr>`)
-            (`<td>`)Juan Pérez(`</td>`)
-            (`<td>`)juan@email.com(`</td>`)
-            (`<td>`)Admin(`</td>`)
-            (`<td>`)
-                (`<button class="editar">`)Editar(`</button>`)
-                (`<button class="eliminar">`)Eliminar(`</button>`)
-            (`</td>`)
-        (`</tr>`)
-        (`<!-- Más filas -->`)
-    (`</tbody>`)
-(`</table>`)
+(table id="tabla-usuarios")
+    (thead)
+        (tr)
+            (th)Nombre(/th)
+            (th)Email(/th)
+            (th)Rol(/th)
+            (th)Acciones(/th)
+        (/tr)
+    (/thead)
+    (tbody)
+        (tr)
+            (td)Juan Pérez(/td)
+            (td)juan@email.com(/td)
+            (td)Admin(/td)
+            (td)
+                (button class="editar")Editar(/button)
+                (button class="eliminar")Eliminar(/button)
+            (/td)
+        (/tr)
+        (!-- Más filas --)
+    (/tbody)
+(/table)
 ```
 
 ## Funcionalidad de búsqueda
 
 ```html
-(`<input type="text" id="busqueda" placeholder="Buscar usuarios...">`)
+(input type="text" id="busqueda" placeholder="Buscar usuarios...")
 ```
 
 ```javascript

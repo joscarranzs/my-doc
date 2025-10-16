@@ -5,23 +5,23 @@ Preguntas con opciones múltiples.
 ## HTML
 
 ```html
-(`<div class="quiz">`)
-    (`<div id="pregunta-container">`)
-        (`<h2 id="pregunta-texto">`)¿Cuál es la capital de Francia?(`</h2>`)
-        (`<div class="opciones">`)
-            (`<button class="opcion" data-correcta="false">`)Londres(`</button>`)
-            (`<button class="opcion" data-correcta="false">`)Madrid(`</button>`)
-            (`<button class="opcion" data-correcta="true">`)París(`</button>`)
-            (`<button class="opcion" data-correcta="false">`)Roma(`</button>`)
-        (`</div>`)
-    (`</div>`)
+(div class="quiz")
+    (div id="pregunta-container")
+        (h2 id="pregunta-texto")¿Cuál es la capital de Francia?(/h2)
+        (div class="opciones")
+            (button class="opcion" data-correcta="false")Londres(/button)
+            (button class="opcion" data-correcta="false")Madrid(/button)
+            (button class="opcion" data-correcta="true")París(/button)
+            (button class="opcion" data-correcta="false")Roma(/button)
+        (/div)
+    (/div)
     
-    (`<div id="resultado" style="display: none;">`)
-        (`<h2>`)Resultado(`</h2>`)
-        (`<p id="puntuacion">`)Puntuación: 0/10(`</p>`)
-        (`<button id="reiniciar">`)Reiniciar Quiz(`</button>`)
-    (`</div>`)
-(`</div>`)
+    (div id="resultado" style="display: none;")
+        (h2)Resultado(/h2)
+        (p id="puntuacion")Puntuación: 0/10(/p)
+        (button id="reiniciar")Reiniciar Quiz(/button)
+    (/div)
+(/div)
 ```
 
 ## JavaScript
